@@ -1,13 +1,12 @@
 // UserProfile.jsx
 
 import React from 'react';
-import './UserProfile.css';  // Tailwind is being used, but you can include custom styles here if needed
 
 const UserProfile = () => {
   return (
-    <div className="profile-container max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl p-4 sm:p-6 md:p-8 bg-white rounded-lg shadow-md">
+    <div className="profile-container max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl p-4 sm:p-6 md:p-8 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out">
       <img
-        src="https://via.placeholder.com/150"  // Replace with the actual image URL
+        src="https://via.placeholder.com/150"  // Replace with actual image URL
         alt="Profile"
         className="profile-image w-24 h-24 sm:w-32 sm:h-32 md:w-36 md:h-36 rounded-full mx-auto mb-4 transition-transform duration-300 ease-in-out transform hover:scale-110"
       />
