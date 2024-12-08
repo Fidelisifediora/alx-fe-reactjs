@@ -5,7 +5,9 @@ import './App.css'
 import WelcomeMessage from './WelcomeMessage'
 import Header from './assets/Header'
 import MainContent from './MainContent'
+import Footer from './Footer'
 import UserProfile from './UserProfile'
+
 function App() {
 
 
@@ -23,7 +25,8 @@ function App() {
         <WelcomeMessage/>
         <Header/>
         <MainContent/>
-        <UserProfile ame="Alice" age="25" bio="Loves hiking and photography"/>
+        <Footer/>
+        <UserProfile name="Alice" age="25" bio="Loves hiking and photography"/>
 
       </div>
     </>
