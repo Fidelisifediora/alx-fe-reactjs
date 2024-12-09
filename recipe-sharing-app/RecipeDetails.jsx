@@ -16,4 +16,5 @@ const RecipeDetails = ({ recipeId }) => {
   );
 };
 
+
 export default RecipeDetails;
