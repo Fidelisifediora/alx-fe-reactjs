@@ -7,7 +7,7 @@ import MainContent from '../MainContent'
 import Footer from './Footer'
 import WelcomeMessage from './WelcomeMessage'
 import UserProfile from './UserProfile'
-
+import Counter from './Counter'
 function App() {
 
 
@@ -27,7 +27,7 @@ function App() {
       <MainContent/>
       <Footer/>
       <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
-
+      <Counter/>
     </div>
     </>
   )
